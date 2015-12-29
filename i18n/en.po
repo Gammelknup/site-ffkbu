@@ -19,7 +19,7 @@ msgid "gluon-config-mode:pubkey"
 msgstr ""
 "This is your Freifunk node's public key."
 "KBU accepts all keys, so no registering or emailing needed."
-"In other communities you often have to send it in or something similar."
+"In some communities you have to send it in or something similar."
 ""
 ""
 
