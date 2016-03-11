@@ -5,6 +5,14 @@
 #		The gluon-mesh-batman-adv-* package must come first because of the dependency resolution
 
 GLUON_SITE_PACKAGES := \
+	kmod-usb-core \
+	kmod-usb2 \
+	kmod-usb-hid \
+	kmod-usb-net \
+	kmod-usb-net-asix \
+	kmod-r8169 \
+	kmod-usb-net-rtl8150\
+        kmod-usb-net-rtl8152\
 	gluon-mesh-batman-adv-14 \
 	gluon-alfred \
 	gluon-respondd \
