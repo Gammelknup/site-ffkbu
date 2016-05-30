@@ -14,6 +14,26 @@ GLUON_SITE_PACKAGES := \
 	kmod-usb-net-rtl8150\
         kmod-usb-net-rtl8152\
 	gluon-mesh-batman-adv-14 \
+	block-mount \
+        kmod-fs-ext4 \
+        kmod-fs-vfat \
+        kmod-usb-storage  \
+        kmod-usb-storage-extras  \
+        blkid  \
+        swap-utils  \
+        kmod-nls-cp1250  \
+        kmod-nls-cp1251  \
+        kmod-nls-cp437  \
+        kmod-nls-cp775  \
+        kmod-nls-cp850  \
+        kmod-nls-cp852  \
+        kmod-nls-cp866  \
+        kmod-nls-iso8859-1  \
+        kmod-nls-iso8859-13  \
+        kmod-nls-iso8859-15  \
+        kmod-nls-iso8859-2  \
+        kmod-nls-koi8r  \
+        kmod-nls-utf8  \
 	gluon-alfred \
 	gluon-respondd \
 	gluon-autoupdater \
