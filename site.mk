@@ -6,7 +6,6 @@
 
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-14 \
-	gluon-alfred \
 	gluon-respondd \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
@@ -14,7 +13,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-core \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
-	gluon-config-mode-mesh-vpn \
+	gluon-config-mode-tunneldigger \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-private-wifi \
@@ -24,10 +23,11 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-portconfig \
 	gluon-luci-wifi-config \
 	gluon-next-node \
-	gluon-mesh-vpn-fastd \
+	gluon-mesh-vpn-tunneldigger \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
+	gluon-tunneldigger-watchdog \
 	haveged \
 	iptables \
 	iwinfo 
