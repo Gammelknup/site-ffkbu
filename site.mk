@@ -1,5 +1,3 @@
-##	gluon site.mk makefile example
-
 ##	GLUON_SITE_PACKAGES
 #		specify gluon/openwrt packages to include here
 #		The gluon-mesh-batman-adv-* package must come first because of the dependency resolution
@@ -167,17 +165,14 @@ GLUON_WZRHPAG300H_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB
 # mpc85xx-generic
 GLUON_TLWDR4900_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PACKAGES_STORAGE)
 
-
-
-
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
 #		gluon relies on
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
+# Firmware name pattern
 DEFAULT_GLUON_RELEASE := 2016.2-exp$(shell date '+%Y%m%d')
-
 
 ##	GLUON_RELEASE
 #		call make with custom GLUON_RELEASE flag, to use your own release version scheme.
@@ -197,3 +192,4 @@ GLUON_LANGS ?= en de
 
 # Region settings for ARCHERC7
 GLUON_REGION ?= eu
+
