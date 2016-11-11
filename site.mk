@@ -193,4 +193,4 @@ GLUON_LANGS ?= en de
 # Region settings for ARCHERC7
 GLUON_REGION ?= eu
 
-GLUON_ATH10K_MESH ?= ibss
+GLUON_ATH10K_MESH = ibss
