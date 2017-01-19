@@ -14,6 +14,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
 	gluon-config-mode-tunneldigger \
+	gluon-mesh-vpn-tunneldigger \
+	gluon-migrate-vpn \
+	gluon-tunneldigger-watchdog \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-private-wifi \
@@ -23,11 +26,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-portconfig \
 	gluon-luci-wifi-config \
 	gluon-next-node \
-	gluon-mesh-vpn-tunneldigger \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
-	gluon-tunneldigger-watchdog \
 	haveged \
 	iptables \
 	iwinfo 
